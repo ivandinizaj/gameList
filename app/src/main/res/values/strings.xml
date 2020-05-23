@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">GameList</string>
+
+    <string name="menu_console_title">Menu do Console</string>
+
+    <string name="item_not_found_generic">Item indisponível</string>
+    <string name="generic_message_empty_list">Nada registrado ainda</string>
+
+    <string-array name="menu_console">
+        <item>Console</item>
+        <item>Jogos</item>
+        <item>Lojas</item>
+    </string-array>
+
+    <!-- Detalhes -->
+    <string name="details_title">Detalhes do Console</string>
+    <string name="details_label_decription">Descrição do console</string>
+    <string name="details_label_name">Nome do console</string>
+
+    <!-- Games -->
+    <string name="games_title">Jogos</string>
+
+    <!-- Store -->
+    <string name="store_title">Loja</string>
+    <string name="store_button_purchase">Comprar</string>
+    <plurals name="store_button_purchase">
+        <item quantity="one">@string/store_button_purchase</item>
+        <item quantity="other">Comprar (%s)</item>
+    </plurals>
+</resources>
